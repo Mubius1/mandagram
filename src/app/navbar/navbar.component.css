@@ -1,0 +1,37 @@
+@import url('//fonts.cdnfonts.com/css/billabong');
+
+
+h3{
+    font-family: "billabong", sans-serif;
+}
+.navbarWrapper{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid #F8F8F8;
+}
+.inputContainer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.inputContainer > input{
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #EFEFEF;
+    text-align: center;
+    padding: 0 16px;
+}
+
+.iconsContainer{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+.commentButton > span{
+    color: blue;
+}
